@@ -1,0 +1,49 @@
+body{
+	background-image: url("back.png");
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;	
+
+}
+
+
+#title{
+	text-align: center;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+	font-size: 50px;
+
+}
+
+.page{
+	background-color: #072438;
+	position: relative;
+	display: block;
+	float: left;
+	top: 70px;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding-left: 10px;
+	width: 350px;
+	height: 450px;
+	border-style: solid;
+	border-color: #fff;
+	border-radius: 20px 7px 20px 7px;
+	text-align: center;
+}
+
+.page h3{
+	font-size: 30px;
+}
+
+.page h4{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.page img{
+	width: 340px;
+	/*clip: rect(0px, 350px, 200px, 0px);*/
+}
