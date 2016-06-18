@@ -17,16 +17,26 @@ body{
 
 }
 
+#projects_container{
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+
+}
+
 .page{
 	background-color: #072438;
 	position: relative;
-	display: block;
 	float: left;
+	left: 50% ;
+
 	margin-left: 20px;
 	margin-bottom: 20px;
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-bottom:15px;
+
 	width: 350px;
 	height: 450px;
 	border-style: solid;
