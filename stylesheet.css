@@ -18,43 +18,61 @@ body{
 }
 
 #projects_container{
-	float: right;
 	position: relative;
-	left: -50%;
+	float: left;
+	width: 98%;
+	left: 2.5%;
+	min-width: 1600px; 
 	text-align: left;
-
 }
 
 .page{
 	background-color: #072438;
-	position: relative;
+	vertical-align: top;
+	width: 45%;
+	min-width: 690px;
 	float: left;
-	left: 50% ;
+	display: table-row;
+	white-space: normal;
+
 
 	margin-left: 20px;
 	margin-bottom: 20px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-bottom:15px;
+	padding-right: 10px;
 
-	width: 350px;
-	height: 450px;
+	height: 300px;
 	border-style: solid;
 	border-color: #fff;
-	border-radius: 20px 5px 5px 5px;
-	text-align: center;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.page:nth-child(2n+1){
+	clear: left;
+}
+
+.page img{
+	position: relative;
+	top: -70px;
+	left: 20px;
+	vertical-align: middle;
+	height: 250px;
+	border-radius: 8px;
 }
 
 .page h3{
+	position: relative;
+	margin-left: 450px;
+
+	top: 70px;
 	font-size: 30px;
 }
 
 .page h4{
+	position: relative;
+	margin-left: 450px;
+	top: -200px;
 	font-size: 20px;
 	font-weight: normal;
+
 }
 
-.page img{
-	width: 340px;
-	border-radius: 8px;
-}
