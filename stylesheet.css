@@ -2,7 +2,7 @@ body{
 	background-image: url("back.png");
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;	
-
+		text-align: center;
 }
 
 
@@ -54,6 +54,7 @@ body{
 	position: relative;
 	top: -70px;
 	left: 20px;
+	clip: rect(0px, 100px, 0, 250px);
 	vertical-align: middle;
 	height: 250px;
 	border-radius: 8px;
@@ -70,9 +71,15 @@ body{
 .page h4{
 	position: relative;
 	margin-left: 450px;
-	top: -200px;
-	font-size: 20px;
+	top: -225px;
+	font-size: 19px;
 	font-weight: normal;
-
 }
 
+@media(max-width: 1534px){
+	#title{
+		position: relative;
+		text-align: left !important;
+		left: 668px;
+	}
+}
