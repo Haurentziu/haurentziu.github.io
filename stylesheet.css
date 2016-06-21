@@ -111,7 +111,7 @@ body{
 }
 
 /* Mobile Phone*/
-@media screen and (max-width: 790px){
+@media screen and (max-width: 480px){
 	.page{
 		clear: left;
 		margin-left: 0px !important;
@@ -132,7 +132,7 @@ body{
 	}
 
 	body{
-		min-width: 760px;
+		min-width: 480px;
 		background-image: none;
 		background-color: #000;
 	}
