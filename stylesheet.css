@@ -104,9 +104,9 @@ body{
 }
 
 /* Small Desktop*/
-@media(max-width: 1534px){ 
+@media(max-width: 1200px){ 
 	#projects_container{
-		left: 15.34px;
+		left: 12px;
 	}
 }
 
