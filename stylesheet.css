@@ -111,7 +111,7 @@ body{
 }
 
 /* Mobile Phone*/
-@media screen and (max-width: 480px){
+@media (max-device-width: 480px){
 	.page{
 		clear: left;
 		margin-left: 0px !important;
