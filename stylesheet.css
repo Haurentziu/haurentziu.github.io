@@ -1,0 +1,139 @@
+body{
+	background-image: url("back.png");
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	min-width: 1534px;
+	height: 100%;
+}
+
+#title{
+	position: relative;
+	text-shadow:
+	  -1px -1px 0 #000,
+	  1px -1px 0 #000,
+	  -1px 1px 0 #000,
+	  1px 1px 0 #000;
+	font-size: 50px;
+}
+
+#projects_container{
+	position: absolute;
+	top: 120px;
+	float: left;
+	left: 1%;
+	width: 98%;
+	min-width: 1504px;
+	text-align: left;
+	height: auto;
+
+/*	border-style: solid;
+	border-color: #fff;*/
+}
+
+.page{
+	text-align: left;
+	float: left;
+
+	position: relative;
+
+	background-color: #072438;
+	vertical-align: top;
+
+	width: -moz-calc(50% - 26px);
+	width: -webkit-calc(50% - 26px);
+	width: -o-calc(50% - 26px);
+	width: calc(50% - 26px);
+
+	min-width: 726px;
+
+	display: inline-block;
+	white-space: normal;
+
+	margin-right: 0px;
+	margin-bottom: 20px;
+	padding-right: 10px;
+
+	height: 300px;
+	border-style: solid;
+	border-color: #fff;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.page:nth-child(2n+1){
+	clear: left;
+}
+
+.page:nth-child(2n){
+	margin-left: 20px;
+}
+
+.page:nth-child(4n), .page:nth-child(4n+1){
+	background-color: #041521;
+}
+
+.page:nth-child(4n+2), .page:nth-child(4n+3){
+	background-color: #072438;
+}
+
+.page img{
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	height: 250px;
+	border-radius: 8px;
+}
+
+.text{
+	position: relative;
+	top: 80px;
+	left: 20px;
+}
+
+.page a{
+	/*text-decoration: none;*/
+	color: #fff;
+	font-size: 30px;
+}
+
+.page h4{
+	font-size: 19px;
+	font-weight: normal;
+}
+
+/* Small Desktop*/
+@media(max-width: 1200px){
+	#projects_container{
+		left: 12px;
+	}
+}
+
+/* Mobile Phone*/
+@media (max-device-width: 480px){
+	.page{
+		clear: left;
+		margin-left: 0px !important;
+	}
+
+	.page:nth-child(2n+1){
+		background-color: #041521;
+	}
+
+	.page:nth-child(2n){
+		background-color: #000407;
+	}
+
+	#projects_container{
+		left: 50%;
+		margin-left: -369px;
+		min-width: 738px;
+		width: 738px;
+	}
+
+	body{
+		min-width: 740px;
+	}
+
+
+}
