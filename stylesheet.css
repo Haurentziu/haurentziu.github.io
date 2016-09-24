@@ -16,7 +16,6 @@ body{
 	display: flex;
 	flex-flow: row wrap;
   align-content: space-between;
-  justify-content: space-between;
 
 	position: relative;
 	top: 0px;
@@ -63,7 +62,7 @@ body{
 }
 
 .page:nth-child(3n){
-	page-break-after: always; /* CSS 2.1 syntax */
+	page-break-after: always;
   break-after: always;
 }
 
@@ -152,6 +151,8 @@ body{
 	top: 30px;
   left: 2.5%;
 	width: 95%;
+	height: 300px;
+	object-fit: cover;
 /*	height: 350px;
 	object-fit: cover;*/
 
