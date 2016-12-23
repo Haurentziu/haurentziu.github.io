@@ -87,7 +87,7 @@ body{
 	border-color: #212121;
 	border-width: 2px;
 
-	box-shadow: 2px 2px 4px #212121;
+	box-shadow: 2px 2px 4px #212121; 
 
 	-webkit-transition: 200ms;
   -moz-transition: 200ms;
@@ -188,7 +188,7 @@ body{
 		break-after: avoid !important;
 		page-break-after: avoid !important;
 
-		height: 30vw;
+		height: 25vw;
 	}
 
 	.page:nth-child(2n){
@@ -197,7 +197,7 @@ body{
 	}
 
 	.text{
-		top: 25.5vw;
+		top: 20.5vw;
 	}
 
 	body{
@@ -219,8 +219,16 @@ body{
 		top: 265px;
 		height: 35px;
 	}
-}
 
+	.text a{
+		font-size: 16px;
+	}
+	
+	.text h4{
+		top: -13px;
+		font-size: 12px;
+	}
+}
 /* Mobile Phone*/
 @media (max-device-width: 720px){
 	.page{
